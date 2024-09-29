@@ -16,5 +16,5 @@ if c_or_f == "f":
 elif c_or_f == "c":
     print(f"{temprature}°C is {convert_to_fahrenheit(temprature)}°F")
 else:
-    print("Error, inappropriate input.")
+    print("Invalid temperature. Please enter a numeric value.")
     
